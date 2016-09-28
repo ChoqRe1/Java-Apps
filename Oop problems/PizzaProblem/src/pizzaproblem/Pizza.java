@@ -1,31 +1,31 @@
 package pizzaproblem;
 
 public class Pizza {
-private ;
-private int cheese;
-private int pepperoni;
-private int ham;
+    private String size;
+    private int cheese;
+    private int pepperoni;
+    private int ham;
 
-public Pizza(S s, int c, int p, int h)
-{
-    e=e;
-    cheese=c;
-    pepperoni=p;
-    ham=h;
+public Pizza(String size, int cheese, int pepperoni, int ham){
+    this.size="";
+    this.cheese=0;
+    this.pepperoni=0;
+    this.ham=0;
 }
-public void;
-public void setCheese(int c)
-{
-    cheese=c;
+public void setSize(String size){
+    this.size=size;
 }
-public void setPepperoni(int p)
+public void setCheese(int cheese)
 {
-    pepperoni=p;
-}public void setHam(int h)
-{
-    ham=h;
+    this.cheese=cheese;
 }
-public ;
+public void setPepperoni(int pepperoni)
+{
+    this.pepperoni=pepperoni;
+}public void setHam(int ham)
+{
+    this.ham=ham;
+}
 public int getCheese()
 {
     return cheese;
