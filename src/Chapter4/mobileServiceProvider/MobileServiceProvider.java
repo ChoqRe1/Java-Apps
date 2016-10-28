@@ -3,13 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package mobileserviceprovider;
+package mobileServiceProvider.mobileserviceprovider;
 
 /**
  *
  * @author 1531537
  */
 import java.util.Scanner;
+
 public class MobileServiceProvider {
 
     /**
