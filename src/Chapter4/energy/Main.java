@@ -1,4 +1,4 @@
-package pkg274.pkg7;
+package Chapter4.energy;
 import java.util.Scanner;
 
 public class Main {

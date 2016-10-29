@@ -1,4 +1,4 @@
-package daysInAMounth;
+package Chapter4.daysInAMounth;
 import java.util.Scanner;
 
 public class Main {

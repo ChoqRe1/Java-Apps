@@ -1,4 +1,4 @@
-package date;
+package Chapter4.date;
 
 /**
  * date created by Remi on 2016-10-12.
@@ -26,15 +26,14 @@ public class MagicDate {
         this.year = year;
     }
 
-    public int getDay() {
-        return day;
-    }
-
-    public int getMounth() {
-        return mounth;
-    }
-
-    public int getYear() {
+    public int fixYear(){
+        if (year>=10000){
+            year= year-((year/10000)*10000);
+        }if (year>=1000){
+            year= year-((year/1000)*1000);
+        }if (year>=100){
+            year= year-((year/100)*100);
+        }
         return year;
     }
 

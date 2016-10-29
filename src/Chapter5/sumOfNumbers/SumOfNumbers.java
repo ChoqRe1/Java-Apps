@@ -1,4 +1,4 @@
-package sumOfNumbers;
+package Chapter5.sumOfNumbers;
 import java.util.Scanner;
 
 /**

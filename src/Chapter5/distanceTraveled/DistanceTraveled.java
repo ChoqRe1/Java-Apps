@@ -1,4 +1,4 @@
-package distanceTraveled;
+package Chapter5.distanceTraveled;
 import java.util.Scanner;
 import java.io.*;
 
@@ -12,7 +12,7 @@ public class DistanceTraveled {
         int speed;
         //Creating Scanner & File
         Scanner input=new Scanner(System.in);
-        File file=new File("itinirary.txt");
+        File file=new File("src\\Chapter5\\distanceTraveled\\itinirary.txt");
         PrintWriter pw=new PrintWriter(file);
         //User Interaction
         System.out.println("How many hours will you travel for?");
@@ -23,7 +23,7 @@ public class DistanceTraveled {
         pw.println("HOURS       DISTANCE");
         //for Loop
         for(int i=1; i<=hours; i++){
-            pw.println("   "+(i)+"        "+(speed*i));
+            pw.println(""+(i)+"           "+(speed*i));
         }
         pw.close();
     }

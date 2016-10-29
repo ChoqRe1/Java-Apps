@@ -7,7 +7,7 @@ import java.util.Scanner;
  */
 public class Friends {
     public static void main(String[] args) throws IOException{
-        File file=new File("C:\\Users\\Remi\\Documents\\GitHub\\Java-Apps\\src\\Chapter5\\friends\\friends.txt");
+        File file=new File("src\\Chapter5\\friends\\friends.txt");
         Scanner input = new Scanner(file);
 
         while(input.hasNext()){

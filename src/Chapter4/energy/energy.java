@@ -1,4 +1,4 @@
-package pkg274.pkg7;
+package Chapter4.energy;
 
 public class energy {
 private double calories;
@@ -10,10 +10,6 @@ public energy(double c,double f)
 {
     calories=c;
     fat=f;
-}
-public double getCalories()
-{
-    return calories;
 }
 public double getPercentage()
 {

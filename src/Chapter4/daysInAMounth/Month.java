@@ -1,4 +1,4 @@
-package daysInAMounth;
+package Chapter4.daysInAMounth;
 
 public class Month {
 private int year;

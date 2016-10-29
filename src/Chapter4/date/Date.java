@@ -1,4 +1,4 @@
-package date;
+package Chapter4.date;
 import java.util.Scanner;
 /**
  * date created by Remi on 2016-10-12.
@@ -13,6 +13,7 @@ public class Date {
         magic.setMounth(input.nextInt());
         System.out.println("What is your Year?");
         magic.setYear(input.nextInt());
+        magic.fixYear();
         System.out.println("Is this date magic?");
         System.out.println(magic.isMagic());
     }

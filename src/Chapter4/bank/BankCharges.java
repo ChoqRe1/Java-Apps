@@ -1,8 +1,6 @@
-package bank;
+package Chapter4.bank;
 
-/**
- * bank created by Remi on 2016-10-05.
- */
+
 public class BankCharges {
     private double fees;
     private int checks;
@@ -16,50 +14,50 @@ public class BankCharges {
         this.balance = balance;
     }
 
-    public void setFees(double fees) {
-        this.fees = fees;
+    public int getChecks() {
+        return checks;
     }
 
     public void setChecks(int checks) {
         this.checks = checks;
     }
 
-    public int getChecks() {
-        return checks;
-    }
-
     public double getFees() {
         return fees;
     }
 
-    public void setBalance(double balance) {
-        this.balance = balance;
-    }
-
-    public void setCost(double cost) {
-        this.cost = cost;
+    public void setFees(double fees) {
+        this.fees = fees;
     }
 
     public double getBalance() {
         return balance;
     }
 
+    public void setBalance(double balance) {
+        this.balance = balance;
+    }
+
     public double getCost() {
         return cost;
     }
 
-    public double calcCost(){
-        if(checks >= 60){
+    public void setCost(double cost) {
+        this.cost = cost;
+    }
+
+    public double calcCost() {
+        if (checks >= 60) {
             fees = .04;
-        }else if(checks >= 40){
+        } else if (checks >= 40) {
             fees = .06;
-        }else if(checks >= 20){
+        } else if (checks >= 20) {
             fees = .08;
-        }else{
+        } else {
             fees = .1;
         }
-        cost = (fees*checks)+10;
-        if(balance < 400){
+        cost = (fees * checks) + 10;
+        if (balance < 400) {
             cost += 15;
         }
 
