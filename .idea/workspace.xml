@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05f39b4c-e598-4106-b1c1-410ba5816e18" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Chapter5/cumulativePay/CumulativePay.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Chapter5/greatestAndLeastOfThese/GreatestAndLeastOfThese.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Chapter5/cumulativePay/CumulativePay.java" afterPath="$PROJECT_DIR$/src/Chapter5/cumulativePay/CumulativePay.java" />
     </list>
     <ignored path="champlainOOP.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,21 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GreatestAndLeastOfThese.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chapter5/greatestAndLeastOfThese/GreatestAndLeastOfThese.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CumulativePay.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Chapter5/cumulativePay/CumulativePay.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+            <state relative-caret-position="103">
+              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -111,6 +99,7 @@
         <option value="$PROJECT_DIR$/src/Chapter4/pizzaProblem/Pizza.java" />
         <option value="$PROJECT_DIR$/src/Chapter5/greatestOrLeastOfThese/GreatestOrLeastOfThese.java" />
         <option value="$PROJECT_DIR$/src/Chapter5/greatestAndLeastOfThese/GreatestAndLeastOfThese.java" />
+        <option value="$PROJECT_DIR$/src/Chapter5/cumulativePay/CumulativePay.java" />
       </list>
     </option>
   </component>
@@ -249,27 +238,7 @@
       <recent name="C:\Users\Remi\Documents\GitHub\Java-Apps\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GreatestAndLeastOfThese">
-    <configuration default="false" name="DistanceTraveled" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Chapter5.distanceTraveled.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="Chapter5.distanceTraveled.DistanceTraveled" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="champlainOOP" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.CumulativePay">
     <configuration default="false" name="PizzaProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -338,6 +307,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="Chapter5.greatestAndLeastOfThese.GreatestAndLeastOfThese" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="champlainOOP" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="CumulativePay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Chapter5.cumulativePay.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Chapter5.cumulativePay.CumulativePay" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -595,19 +584,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.DistanceTraveled" />
-      <item index="1" class="java.lang.String" itemvalue="Application.PizzaProblem" />
-      <item index="2" class="java.lang.String" itemvalue="Application.PizzaProblem (1)" />
-      <item index="3" class="java.lang.String" itemvalue="Application.TheGreatestAndLeastOfThese" />
-      <item index="4" class="java.lang.String" itemvalue="Application.GreatestAndLeastOfThese" />
+      <item index="0" class="java.lang.String" itemvalue="Application.PizzaProblem" />
+      <item index="1" class="java.lang.String" itemvalue="Application.PizzaProblem (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Application.TheGreatestAndLeastOfThese" />
+      <item index="3" class="java.lang.String" itemvalue="Application.GreatestAndLeastOfThese" />
+      <item index="4" class="java.lang.String" itemvalue="Application.CumulativePay" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.GreatestAndLeastOfThese" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TheGreatestAndLeastOfThese" />
-        <item index="2" class="java.lang.String" itemvalue="Application.PizzaProblem (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Application.PizzaProblem" />
-        <item index="4" class="java.lang.String" itemvalue="Application.DistanceTraveled" />
+        <item index="0" class="java.lang.String" itemvalue="Application.CumulativePay" />
+        <item index="1" class="java.lang.String" itemvalue="Application.GreatestAndLeastOfThese" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TheGreatestAndLeastOfThese" />
+        <item index="3" class="java.lang.String" itemvalue="Application.PizzaProblem (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Application.PizzaProblem" />
       </list>
     </recent_temporary>
   </component>
@@ -632,16 +621,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.46369138" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.44856277" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3927987" sideWeight="0.34266263" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3927987" sideWeight="0.35022694" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3927987" sideWeight="0.65733737" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3927987" sideWeight="0.64977306" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -747,13 +736,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
           <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter5/additionMachine/AdditionMachine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -887,16 +869,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Chapter5/greatestAndLeastOfThese/GreatestAndLeastOfThese.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
+        <state relative-caret-position="-136">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter5/additionMachine/AdditionMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Chapter5/cumulativePay/CumulativePay.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        <state relative-caret-position="103">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
           <folding />
         </state>
       </provider>
