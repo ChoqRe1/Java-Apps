@@ -1,4 +1,4 @@
-package pizzaProblem;
+package Chapter4.pizzaProblem;
 import java.util.Scanner;
 //Created by ChoqRe1
 

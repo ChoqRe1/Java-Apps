@@ -1,4 +1,4 @@
-package roulette;
+package Chapter4.roulette;
 import java.util.Scanner;
 
 /**

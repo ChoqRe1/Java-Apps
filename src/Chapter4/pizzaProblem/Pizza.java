@@ -1,4 +1,4 @@
-package pizzaProblem;
+package Chapter4.pizzaProblem;
 //Created by ChoqRe1
 public class Pizza {
     private String size;
@@ -57,10 +57,18 @@ public double calcCost(){
             case "Small":
                 cost += 10;
                 break;
+            case "small":
+                cost += 10;
             case "Medium":
                 cost += 12;
                 break;
+            case "medium":
+                cost += 12;
+                break;
             case "Large":
+                cost += 14;
+                break;
+            case "large":
                 cost += 14;
                 break;
             default:
