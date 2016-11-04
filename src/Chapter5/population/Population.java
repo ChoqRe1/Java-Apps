@@ -37,7 +37,7 @@ public class Population {
 
         for(int i=0; i<=days; ++i){
             population = population*growthRate;
-            System.out.println("After day "+ days + "at a growth rate of "+ (growthRate-1)*100+"%, your population will reach "+ population+" organisms.");
+            System.out.println("After day "+ days + "at a growth rate of "+ (growthRate-1)*100+"%, on day "+i+"  your population will reach "+ (population-(population%1))+" organisms.");
         }
     }
 }
