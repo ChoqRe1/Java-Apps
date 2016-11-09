@@ -23,6 +23,7 @@ public class FileDisplay {
             System.out.println(line);
             count++;
         }
+        input.close();
     }
 
     public void displayContents(){
@@ -30,6 +31,7 @@ public class FileDisplay {
             String line = input.nextLine();
             System.out.println(line);
         }
+        input.close();
     }
 
     public void displayWithLineNumbers(){
@@ -39,6 +41,7 @@ public class FileDisplay {
             System.out.println(count+": "+line);
             count++;
         }
+        input.close();
     }
 
 }
