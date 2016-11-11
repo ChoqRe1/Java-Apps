@@ -10,8 +10,9 @@ public class DisplayFile {
 
         FileDisplay df=new FileDisplay("data.txt");
 
-//        df.displayHead();
-//        df.displayContents();
+        df.displayHead();
+        System.out.println("^^ HEADER ^^");
+        df.displayContents();
         df.displayWithLineNumbers();
     }
 }

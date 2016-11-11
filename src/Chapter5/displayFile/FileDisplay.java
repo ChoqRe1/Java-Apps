@@ -16,8 +16,9 @@ public class FileDisplay {
         input=new Scanner(file);
     }
 
-    public void displayHead(){
+    public void displayHead()throws IOException{
         int count=0;
+        input=new Scanner(file);
         while(input.hasNext()&&count<=5){
             String line = input.nextLine();
             System.out.println(line);
@@ -26,7 +27,8 @@ public class FileDisplay {
         input.close();
     }
 
-    public void displayContents(){
+    public void displayContents()throws IOException{
+        input=new Scanner(file);
         while(input.hasNext()){
             String line = input.nextLine();
             System.out.println(line);
@@ -34,7 +36,8 @@ public class FileDisplay {
         input.close();
     }
 
-    public void displayWithLineNumbers(){
+    public void displayWithLineNumbers()throws IOException{
+        input=new Scanner(file);
         int count=1;
         while(input.hasNext()){
             String line = input.nextLine();
